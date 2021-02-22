@@ -1,0 +1,29 @@
+{
+  "name": "@rodgeraraujo/stylelint-config",
+  "version": "0.1.2",
+  "description": "My stylelint config.",
+  "license": "MIT",
+  "author": "rodgeraraujo",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rodgeraraujo/config.js.git",
+    "directory": "packages/stylelint-config"
+  },
+  "dependencies": {
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-recommended": "^3.0.0",
+    "stylelint-prettier": "^1.1.2",
+    "stylelint-scss": "^3.18.0"
+  },
+  "peerDependencies": {
+    "prettier": "^2.2.1",
+    "stylelint": "^13.8.0"
+  }
+}

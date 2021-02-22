@@ -1,0 +1,26 @@
+{
+  "name": "@rodgeraraujo/prettier-config",
+  "version": "0.1.1",
+  "description": "My Prettier config.",
+  "license": "MIT",
+  "author": "rodgeraraujo",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rodgeraraujo/config.js.git",
+    "directory": "packages/prettier-config"
+  },
+  "scripts": {
+    "lint": "prettier .",
+    "format": "prettier --write ."
+  },
+  "peerDependencies": {
+    "prettier": "^2.2.1"
+  }
+}

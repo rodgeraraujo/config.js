@@ -1,0 +1,10 @@
+{
+  "version": "0.1.0",
+  "npmClient": "npm",
+  "useWorkspaces": true,
+  "command": {
+    "version": {
+      "message": "chore(release): publish %s"
+    }
+  }
+}
