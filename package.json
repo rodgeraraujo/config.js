@@ -6,7 +6,7 @@
   "author": "rodgeraraujo",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rodgeraraujo/js-config.git"
+    "url": "https://github.com/rodgeraraujo/config.js.git"
   },
   "private": true,
   "workspaces": [
@@ -40,15 +40,16 @@
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@typescript-eslint/eslint-plugin": "^4.10.0",
-    "eslint": "^7.16.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.19.0",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jest": "^24.1.3",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prettier": "^3.3.0",
+    "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-promise": "^4.2.1",
-    "husky": "^4.3.6",
+    "husky": "^4.3.8",
     "jest": "^26.6.3",
     "lerna": "^3.22.1",
     "lint-staged": "^10.5.3",
@@ -58,10 +59,13 @@
     "typescript": "^4.1.3"
   },
   "dependencies": {
-    "@rodgeraraujo/commitlint-config": "^0.1.0",
-    "@rodgeraraujo/eslint-config": "^0.1.0",
-    "@rodgeraraujo/prettier-config": "^0.1.0",
-    "@rodgeraraujo/stylelint-config": "^0.1.0"
+    "@rodgeraraujo/commitlint-config": "^0.1.2",
+    "@rodgeraraujo/eslint-config": "^0.1.2",
+    "@rodgeraraujo/prettier-config": "^0.1.1",
+    "@rodgeraraujo/stylelint-config": "^0.1.2"
   },
-  "keywords": ["config", "javascript"]
+  "keywords": [
+    "config",
+    "javascript"
+  ]
 }
