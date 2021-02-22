@@ -1,6 +1,6 @@
 {
   "name": "@rodgeraraujo/commitlint-config",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "My commitlint config.",
   "license": "MIT",
   "author": "rodgeraraujo",
